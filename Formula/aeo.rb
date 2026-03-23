@@ -7,20 +7,20 @@ class Aeo < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/kithlabs/aeo/releases/download/v0.5.0/aeo_darwin_arm64.tar.gz"
-      sha256 "697bdb04cb8b3907e79d384136cc03c7182b56d9a0692defb07481e9974b27b2"
+      sha256 "087a01d4ea6792c34f4eba293aeb2036c02d606ca9d0535de8a57d5b7dafbc7a"
     else
       url "https://github.com/kithlabs/aeo/releases/download/v0.5.0/aeo_darwin_amd64.tar.gz"
-      sha256 "0902561db3f6c7f5f2ca63a6ad4b935049b9ab2c3d5d99b577fe9e9dc8ec89d7"
+      sha256 "cb3f3fbfd9ae9dac2266ba80df21daf6bf0b6e17495a9515268e6d91ef9422de"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/kithlabs/aeo/releases/download/v0.5.0/aeo_linux_arm64.tar.gz"
-      sha256 "87d83a64d7271a6ffff682c28782337e11221f9fd1f96f7faa819d977ddd13c5"
+      sha256 "d8c4fe04301167a881f77db21cd73b28e5fa965ea2b831950faa8789fcfd90ce"
     else
       url "https://github.com/kithlabs/aeo/releases/download/v0.5.0/aeo_linux_amd64.tar.gz"
-      sha256 "91f7d07442f235cc4ac27c9b71938bd8f7791ae2efb9c9597dd2b2734a695bcf"
+      sha256 "58c2cb82bcc34afa0ae7fd4df2690104101e7113d4ac90bc8475a1b67959847c"
     end
   end
 
