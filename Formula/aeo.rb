@@ -1,26 +1,26 @@
 class Aeo < Formula
   desc "GEO CLI for AI search engine visibility"
   homepage "https://github.com/kithlabs/aeo"
-  version "0.8.2"
+  version "0.9.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/kithlabs/aeo/releases/download/v0.8.2/aeo_darwin_arm64.tar.gz"
-      sha256 "dca8af8e5f6865257744bbc566f9f4bade7e334b8ead1a943035f48999b3d3cb"
+      url "https://github.com/kithlabs/aeo/releases/download/v0.9.0/aeo_darwin_arm64.tar.gz"
+      sha256 "6dbf3ded3aa9cee3cf05ff1a7d3d544d707a3add7495e6b832e73c7df2bc9ff9"
     else
-      url "https://github.com/kithlabs/aeo/releases/download/v0.8.2/aeo_darwin_amd64.tar.gz"
-      sha256 "8151522b5ec88ffd617991aff4fac24bda14fbe7c540f599fb626d0120fee6fb"
+      url "https://github.com/kithlabs/aeo/releases/download/v0.9.0/aeo_darwin_amd64.tar.gz"
+      sha256 "bb86b926286b331f9349ce7f7b93d1e8ceeb050fb82c6b7d5e17ea5ff63864ea"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/kithlabs/aeo/releases/download/v0.8.2/aeo_linux_arm64.tar.gz"
-      sha256 "73594f2ecf529a23227e2a29741c7ee3e2492c13daf4cf0dc0fbc408a2b69654"
+      url "https://github.com/kithlabs/aeo/releases/download/v0.9.0/aeo_linux_arm64.tar.gz"
+      sha256 "3a860913e49e785325f0532e4e5ea51b715458e88e191891948f813400d8a7d4"
     else
-      url "https://github.com/kithlabs/aeo/releases/download/v0.8.2/aeo_linux_amd64.tar.gz"
-      sha256 "ed6d4da309365fbe2c9f53966c30e3cb6813e5777794cb1076cca700fb07f523"
+      url "https://github.com/kithlabs/aeo/releases/download/v0.9.0/aeo_linux_amd64.tar.gz"
+      sha256 "ffb8c1bf4af60589e66ef2212ef0ee5e386767eabd1242bdfff2f35dd974f2b1"
     end
   end
 
